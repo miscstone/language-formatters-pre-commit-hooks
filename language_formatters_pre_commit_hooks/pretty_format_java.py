@@ -18,7 +18,7 @@ def download_google_java_formatter_jar(version=GOOGLE_JAVA_FORMATTER_VERSION):  
     def get_url(_version):
         # Links extracted from https://github.com/google/google-java-format/
         return \
-            'https://github.com/miscstone/language-formatters-pre-commit-hooks-modify/releases/download/v1.3.5/' \
+            'https://github.com/miscstone/language-formatters-pre-commit-hooks-modify/releases/download/v1.3.6/' \
             'google-java-format-{version}-all-deps.jar'.format(
                 version=_version,
             )
