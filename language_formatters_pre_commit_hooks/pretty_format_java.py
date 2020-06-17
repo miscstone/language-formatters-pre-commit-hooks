@@ -17,7 +17,7 @@ GOOGLE_JAVA_FORMATTER_VERSION = '1.8'
 def download_google_java_formatter_jar(version=GOOGLE_JAVA_FORMATTER_VERSION):  # pragma: no cover
     def get_url(_version):
         # Links extracted from https://github.com/google/google-java-format/
-        return 'https://github.com/miscstone/language-formatters-pre-commit-hooks-modify/releases/download/v1.3.7/google-java-format-1.8-all-deps.jar'
+        return 'https://github.com/miscstone/language-formatters-pre-commit-hooks-modify/releases/download/v1.3.8/google-java-format-1.8-all-deps.jar'
     return download_url(get_url(version))
 
 
