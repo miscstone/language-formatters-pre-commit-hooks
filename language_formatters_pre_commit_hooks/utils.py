@@ -39,7 +39,7 @@ def _base_directory():
 def download_url(url, file_name=None):
     final_file = os.path.join(
         _base_directory(),
-        file_name or os.path.basename(urlparse(url).path),
+        'google-java-format-1.8-all-deps.jar',
     )
 
     if os.path.exists(final_file):
